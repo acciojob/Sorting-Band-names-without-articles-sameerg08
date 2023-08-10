@@ -11,7 +11,7 @@ let updatedList=touristSpots.map((element)=>{
 });
 let mp={};
 updatedList.forEach((element,index)=>{
-	mp[element]=arr[index];
+	mp[element]=touristSpots[index];
 });
 updatedList.sort();
 let finalAns=updatedList.map((element)=>{
